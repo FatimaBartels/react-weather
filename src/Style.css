@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f9f7fe;
+}
+
+#weatherCont {
+  background: #ffffff;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 4px 13px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+#searchForm {
+  margin: 0 auto;
+}
+
+#enterCity {
+  padding: 18px;
+  border: 0;
+  background: #f9f7fe;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 80%;
+}
+
+#submitBtn {
+  background: #885df1;
+  color: white;
+  margin-left: 5px;
+  width: 18%;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+main {
+  margin: 35px 0;
+  padding: 30px 0;
+  border-style: solid none;
+  border-color: #f9f7fe;
+}
+
+#weathertoday {
+  display: flex;
+  justify-content: space-around;
+}
+
+#currentCity {
+  margin: 0 auto;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+p {
+  color: #99878f;
+}
+strong {
+  color: #f65282;
+}
+
+#displayCurrentemp {
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0;
+}
+
+#temperatureIcon {
+  font-size: 40px;
+}
+
+#temperatureDegrees {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  bottom: 40px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
