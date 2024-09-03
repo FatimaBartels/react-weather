@@ -78,13 +78,18 @@ export default function Weather(props) {
       <footer>
         <p>
           This project was coded by {""}
-          <a href="https://github.com/FatimaBartels" target="_blank">
+          <a
+            href="https://github.com/FatimaBartels"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Fatima Bartels
           </a>
           and is {""}
           <a
             href="https://github.com/FatimaBartels/my-weather-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
             on GitHub
           </a>{" "}
@@ -93,6 +98,7 @@ export default function Weather(props) {
           <a
             href="https://main--gorgeous-sfogliatella-ca7c3a.netlify.app/?"
             target="_blank"
+            rel="noopener noreferrer"
           >
             hosted on Netlify
           </a>
