@@ -96,7 +96,7 @@ export default function Weather(props) {
           {""}
           and {""}
           <a
-            href="https://main--gorgeous-sfogliatella-ca7c3a.netlify.app/?"
+            href="https://fb-weather-react-app.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
